@@ -1,20 +1,16 @@
-# MONGODB
-## mostrar tus base de datos
-```bash
-show databases:
-admin 0.0
-config 0.0
-etc 0.0
+*introduccion*
 
-```
-## usar base de datos
-```bash
-use otrabasededatos //? esto crea una base si es que no estaba creada no se vera con show porque estara vacia
+*instalacion*
+- con `script` en el html
+- `npx create-react-app newnameapp` npx instala la ultima version y 
+luego elimina lo que no es nesesario
 
-```
-## funciones de la base de datos
-```bash
-db.createCollection("coleccionejemplo"): //? {"ok":1} //? crea una coleccion
-  .dropDatabase(): // elimina la base de datos 
-  
-```
+
+*configuracion*
+
+*uso*
+- <a href='https://github.com/facebook/react'>https://github.com/facebook/react</a>
+*practica con proyectos*
+- `dev01` en esta carpeta esta un mini proyecto que usa react desde los
+script
+- `dev02` en esta hay un proyecto iniciado con create-react-app

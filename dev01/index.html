@@ -1,0 +1,42 @@
+<body>
+ <div id="root">		
+  </div>
+/*traemos los script de react para desarrollo*/
+   <script
+    src="https://unpkg.com/react@17/umd/react.development.js"
+    crossorigin>
+   </script>
+/*en este caso es react-dom por tratarse de una aplicacion web*/
+   <script 
+    src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" 
+    crossorigin>
+   </script>
+/*script se usa para escribir codigo js*/
+   <script>
+/*copiamos un poco de codigo de react*/
+/*createElement es una funcion de react para crear*/
+const e = React.createElement;
+
+class LikeButton extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { liked: false };
+  }
+
+render() {
+  if (this.state.liked) {
+    return 'You liked this.';
+  }
+
+return e(
+	'button',
+	{ onClick: () => this.setState({ liked: true }) },
+	'Like'
+	);
+}
+}
+/*-----------------------------------*/
+const root = document.getElementById('root')
+ReactDOM.render(e(LikeButton), root);
+</script>
+</body>

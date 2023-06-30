@@ -1,6 +1,9 @@
-# AZURE
-# crear una maquina virtual
-- <a href="https://github.com/GabrielBrufau/Azure.__GB__/blob/master/managing-virtual-machine.md" >managing-virtual-machine.md</a>
+# azure
+## Introduction 
+- <a href="" >wiki</a>,<a href="">doc</a>
+## challenges
+1. 1/
+   - a/
 
 
 
